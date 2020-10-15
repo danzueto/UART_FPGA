@@ -1,0 +1,10 @@
+V3 5
+FL "C:/Users/aleja/Desktop/usac/E3/Elbert V2/Electronica3/Uart/Rx.vhd" 2017/12/19.17:16:48 P.20131013
+EN work/UartRx 1513725412 \
+      FL "C:/Users/aleja/Desktop/usac/E3/Elbert V2/Electronica3/Uart/Rx.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/UartRx/Behavioral 1513725413 \
+      FL "C:/Users/aleja/Desktop/usac/E3/Elbert V2/Electronica3/Uart/Rx.vhd" \
+      EN work/UartRx 1513725412
+FL C:/Users/David/Documents/E6/Uart/Rx.vhd 2016/06/28.15:23:26 P.20131013
+FL C:/Users/dbr-2/Documents/E3/Uart/Rx.vhd 2016/09/21.13:06:08 P.20131013

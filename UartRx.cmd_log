@@ -1,0 +1,70 @@
+xst -intstyle ise -ifn "C:/Users/David/Documents/E6/Uart/UartRx.xst" -ofn "C:/Users/David/Documents/E6/Uart/UartRx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ZYBO_Master.ucf -p xc7z010-clg400-3 UartRx.ngc UartRx.ngd  
+map -intstyle ise -p xc7z010-clg400-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o UartRx_map.ncd UartRx.ngd UartRx.pcf 
+par -w -intstyle ise -ol high -mt off UartRx_map.ncd UartRx.ncd UartRx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UartRx.twx UartRx.ncd -o UartRx.twr UartRx.pcf -ucf ZYBO_Master.ucf 
+bitgen -intstyle ise -f UartRx.ut UartRx.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/E6/Uart/UartRx.xst" -ofn "C:/Users/David/Documents/E6/Uart/UartRx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ZYBO_Master.ucf -p xc7z010-clg400-3 UartRx.ngc UartRx.ngd  
+map -intstyle ise -p xc7z010-clg400-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o UartRx_map.ncd UartRx.ngd UartRx.pcf 
+par -w -intstyle ise -ol high -mt off UartRx_map.ncd UartRx.ncd UartRx.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml UartRx.twx UartRx.ncd -o UartRx.twr UartRx.pcf -ucf ZYBO_Master.ucf 
+bitgen -intstyle ise -f UartRx.ut UartRx.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/E6/Uart/UartRx.xst" -ofn "C:/Users/David/Documents/E6/Uart/UartRx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/David/Documents/E3/Numato.ucf -p xc7z010-clg400-3 UartRx.ngc UartRx.ngd  
+map -intstyle ise -p xc7z010-clg400-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o UartRx_map.ncd UartRx.ngd UartRx.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/David/Documents/E3/Numato.ucf -p xc7z010-clg400-3 UartRx.ngc UartRx.ngd  
+xst -intstyle ise -ifn "C:/Users/David/Documents/E6/Uart/UartRx.xst" -ofn "C:/Users/David/Documents/E6/Uart/UartRx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/David/Documents/E3/Numato.ucf -p xc3s50a-tq144-5 UartRx.ngc UartRx.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o UartRx_map.ncd UartRx.ngd UartRx.pcf 
+par -w -intstyle ise -ol high -t 1 UartRx_map.ncd UartRx.ncd UartRx.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UartRx.twx UartRx.ncd -o UartRx.twr UartRx.pcf 
+bitgen -intstyle ise -f UartRx.ut UartRx.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/E6/Uart/UartRx.xst" -ofn "C:/Users/David/Documents/E6/Uart/UartRx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/David/Documents/E3/Numato.ucf -p xc3s50a-tq144-5 UartRx.ngc UartRx.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o UartRx_map.ncd UartRx.ngd UartRx.pcf 
+par -w -intstyle ise -ol high -t 1 UartRx_map.ncd UartRx.ncd UartRx.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UartRx.twx UartRx.ncd -o UartRx.twr UartRx.pcf 
+bitgen -intstyle ise -f UartRx.ut UartRx.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/E6/Uart/UartRx.xst" -ofn "C:/Users/David/Documents/E6/Uart/UartRx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/David/Documents/E3/Numato.ucf -p xc3s50a-tq144-5 UartRx.ngc UartRx.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o UartRx_map.ncd UartRx.ngd UartRx.pcf 
+par -w -intstyle ise -ol high -t 1 UartRx_map.ncd UartRx.ncd UartRx.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UartRx.twx UartRx.ncd -o UartRx.twr UartRx.pcf 
+bitgen -intstyle ise -f UartRx.ut UartRx.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/E6/Uart/UartRx.xst" -ofn "C:/Users/David/Documents/E6/Uart/UartRx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/David/Documents/E3/Numato.ucf -p xc3s50a-tq144-5 UartRx.ngc UartRx.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o UartRx_map.ncd UartRx.ngd UartRx.pcf 
+par -w -intstyle ise -ol high -t 1 UartRx_map.ncd UartRx.ncd UartRx.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UartRx.twx UartRx.ncd -o UartRx.twr UartRx.pcf 
+bitgen -intstyle ise -f UartRx.ut UartRx.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/David/Documents/E3/Numato.ucf -p xc3s50a-tq144-5 UartRx.ngc UartRx.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o UartRx_map.ncd UartRx.ngd UartRx.pcf 
+par -w -intstyle ise -ol high -t 1 UartRx_map.ncd UartRx.ncd UartRx.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UartRx.twx UartRx.ncd -o UartRx.twr UartRx.pcf 
+bitgen -intstyle ise -f UartRx.ut UartRx.ncd 
+xst -intstyle ise -ifn "C:/Users/dbr-2/Documents/E3/Uart/UartRx.xst" -ofn "C:/Users/dbr-2/Documents/E3/Uart/UartRx.syr" 
+xst -intstyle ise -ifn "C:/Users/dbr-2/Documents/E3/Uart/UartRx.xst" -ofn "C:/Users/dbr-2/Documents/E3/Uart/UartRx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/dbr-2/Documents/E3/Numato.ucf -p xc3s50a-tq144-5 UartRx.ngc UartRx.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o UartRx_map.ncd UartRx.ngd UartRx.pcf 
+par -w -intstyle ise -ol high -t 1 UartRx_map.ncd UartRx.ncd UartRx.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UartRx.twx UartRx.ncd -o UartRx.twr UartRx.pcf 
+bitgen -intstyle ise -f UartRx.ut UartRx.ncd 
+xst -intstyle ise -ifn "C:/Users/aleja/Desktop/usac/E3/Elbert V2/Electronica3/Uart/UartRx.xst" -ofn "C:/Users/aleja/Desktop/usac/E3/Elbert V2/Electronica3/Uart/UartRx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s50a-tq144-5 "UartRx.ngc" UartRx.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o UartRx_map.ncd UartRx.ngd UartRx.pcf 
+par -w -intstyle ise -ol high -t 1 UartRx_map.ncd UartRx.ncd UartRx.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UartRx.twx UartRx.ncd -o UartRx.twr UartRx.pcf 
+bitgen -intstyle ise -f UartRx.ut UartRx.ncd 
+xst -intstyle ise -ifn "C:/Users/aleja/Desktop/usac/E3/Elbert V2/Electronica3/Uart/UartRx.xst" -ofn "C:/Users/aleja/Desktop/usac/E3/Elbert V2/Electronica3/Uart/UartRx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/aleja/Desktop/usac/E3/Elbert V2/elbertv2.ucf" -p xc3s50a-tq144-5 "UartRx.ngc" UartRx.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o UartRx_map.ncd UartRx.ngd UartRx.pcf 
+par -w -intstyle ise -ol high -t 1 UartRx_map.ncd UartRx.ncd UartRx.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UartRx.twx UartRx.ncd -o UartRx.twr UartRx.pcf 
+bitgen -intstyle ise -f UartRx.ut UartRx.ncd 
+xst -intstyle ise -ifn "C:/Users/aleja/Desktop/usac/E3/Elbert V2/Electronica3/Uart/UartRx.xst" -ofn "C:/Users/aleja/Desktop/usac/E3/Elbert V2/Electronica3/Uart/UartRx.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/aleja/Desktop/usac/E3/Elbert V2/elbertv2.ucf" -p xc3s50a-tq144-5 "UartRx.ngc" UartRx.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o UartRx_map.ncd UartRx.ngd UartRx.pcf 
+par -w -intstyle ise -ol high -t 1 UartRx_map.ncd UartRx.ncd UartRx.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml UartRx.twx UartRx.ncd -o UartRx.twr UartRx.pcf 
+bitgen -intstyle ise -f UartRx.ut UartRx.ncd 
